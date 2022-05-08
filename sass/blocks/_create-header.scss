@@ -1,0 +1,53 @@
+/* Header */
+
+.create-header {
+    padding-top: 40px;
+    padding-right: 0;
+    padding-bottom: 40px;
+    padding-left: 0;
+    background-image: url("../images/Rectangle-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background-color: #F3D7B7;
+    
+}
+
+.create-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-menu {
+    margin-left: auto;
+}
+
+.create-menu__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.create-menu__item {
+    margin-left: 40px;
+}
+
+.first {
+    margin-left: 0;
+}
+
+.create-menu__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+}
+
+/* header tugadi */
