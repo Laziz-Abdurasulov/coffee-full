@@ -16,9 +16,11 @@
 }
 
 .choose__inner {
-    width: 1400px;
+    // width: 1400px;
     height: 703px;
     margin: 0;
+    margin-right: auto;
+    margin-left: auto;
     padding: 0;
     /* padding-bottom: 500px; */
     // background-image:  url("../images/choose-back.png");
@@ -95,18 +97,19 @@
 .choose__item {
     width: 433px;
     margin: 0;
-    margin-left: 20px;
+    // margin-left: 20px;
     padding: 0;
     
 }
 
-.choose__item:nth-child(1) {
-    margin-left: 30px;
+.choose__item:nth-child(2) {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.choose__item:nth-child(3) {
-    margin-right: 31px;
-}
+// .choose__item:nth-child(3) {
+//     margin-right: 31px;
+// }
 
 .choose__pic {
     margin-bottom: 28px;
